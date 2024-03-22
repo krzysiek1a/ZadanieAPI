@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+    <listeners>
+        <listener class-name="pl.orange.app.testComponents.Listeners" />
+        <listener class-name="pl.orange.app.testComponents.Transformer"/>
+    </listeners>
+    <test name="Form">
+        <classes>
+            <class name="pl.orange.app.AppTest" />
+        </classes>
+    </test>
+</suite>
